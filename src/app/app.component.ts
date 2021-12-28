@@ -9,5 +9,4 @@ export class AppComponent {
   constructor(){
   }
   ngOnInit(){}
-  title = 'arg-prog-angular';
 }
