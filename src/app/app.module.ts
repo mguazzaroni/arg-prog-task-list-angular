@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ButtonComponent } from './components/button/button.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { HeaderComponent } from './components/header/header.component';
     AppComponent,
     LoginComponent,
     HeaderComponent,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,
