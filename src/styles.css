@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: 'Poppins';
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    src:url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 }
 
 *{
@@ -10,7 +10,7 @@
     padding: 0;
 }
 body{
-    font-family: sans-serif;    
+    font-family: 'Ubuntu', sans-serif;   
 }
 
 .container{
@@ -20,7 +20,7 @@ body{
     min-height: 300px;
     border: 1px solid steelblue;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .btn {
