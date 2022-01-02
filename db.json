@@ -17,6 +17,12 @@
       "text": "Festejar año nuevo",
       "day": "Enero, 1",
       "reminder": true
+    },
+    {
+      "text": "Nueva Tarea",
+      "day": "Mañana",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
