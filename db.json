@@ -1,28 +1,22 @@
 {
-    "tasks":[
-        {
-            "id": 1,
-            "text": "Terminar los modulos de angular",
-            "day": "Enero, 10",
-            "reminder": true
-        },
-        {
-            "id": 2,
-            "text": "Salir a correr",
-            "day": "Diciembre, 29",
-            "reminder": false
-        },
-        {
-            "id": 3,
-            "text": "Investigar sobre angular",
-            "day": "Enero, 1",
-            "reminder": true
-        },
-        {
-            "id": 4,
-            "text": "Festejar año nuevo",
-            "day": "Enero, 1",
-            "reminder": true
-        }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Terminar los modulos de angular",
+      "day": "Enero, 10",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Investigar sobre angular",
+      "day": "Enero, 1",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Festejar año nuevo",
+      "day": "Enero, 1",
+      "reminder": true
+    }
+  ]
 }
