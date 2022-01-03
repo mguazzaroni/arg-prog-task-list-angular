@@ -4,8 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 // Importamos el modulo para manejar peticiones http
 import {HttpClientModule} from '@angular/common/http';
-
-import { AppRoutingModule } from './app-routing.module';
+// import { RouterModule, Routes} from '@angular/router'
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -14,6 +13,12 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import {TasksItemComponent} from './components/tasks-item/tasks-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
+import { AboutComponent } from './components/about/about.component';
+
+// const appRoutes: Routes = [
+//   { path: '', component: TasksComponent },
+//   { path: '/about', component: AboutComponent }
+// ]
 
 @NgModule({
   declarations: [
@@ -24,14 +29,15 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
     TasksComponent,
     TasksItemComponent,
     AddTaskComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    // RouterModule.forRoot(appRoutes, {enableTracing: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
