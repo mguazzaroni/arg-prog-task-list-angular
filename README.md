@@ -1,5 +1,7 @@
 # Argentina Programa Modulo 3 - Angular
 
+Sencilla app de tareas, donde se pueden crear, tener un recordatorio y borrar, siguiendo los pasos y las explicaciones de un profesor de Argentina Programa.
+
 El proyecto fue generado utilizando [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
 ## Servidor de desarrollo
